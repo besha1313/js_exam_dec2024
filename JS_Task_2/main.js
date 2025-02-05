@@ -25,20 +25,28 @@ let book4 = {
     title: 'A Game of Thrones',
     pageCount: 864,
     genre: 'fantasy',
-    authors: ['George R. R. Martin', 76]
-};
+    authors: [{name: 'George R. R. Martin', age: 76},
+            {name: 'George R. R. Martin', age: 76}
+            ]
+    };
+
 let book5 = {
     title: 'The Nightingale',
     pageCount: 464,
     genre: 'historical novel',
-    authors: ['Kristin Hannah', 64]
-};
+    authors: [{name: 'Kristin Hannah', age: 64},
+            {name: 'Kristin Hannah', age: 64}
+            ]
+    };
+
 let book6 = {
     title: 'Wonder',
     pageCount: 408,
     genre: 'novel',
-    authors: ['Raquel Palacio', 62]
-};
+    authors: [{name:'Raquel Palacio', age: 62},
+            {name:'Raquel Palacio', age: 62}
+            ]
+    };
 console.log(book4);
 console.log(book5);
 console.log(book6);
@@ -69,6 +77,9 @@ for (const arrUser of arr_users) {
 
 // Task_2_5
 // - описати масив, в якому буде зберігатись інформація про температуру вранці, вдень і ввечері за термін в 7 днів. Як зробити цей масив - вам потрібно подумати. Нормальних варіантів опису - 2. Варіант, коли в вас буде одновимірний масив з 21 значенням вичключаємо одразу
+console.log('Task_2_5');
+
+
 
 
 // Логічні розгалуження:
