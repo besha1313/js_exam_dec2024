@@ -1,7 +1,7 @@
 // Масиви та об'єкти
 // Task_2_1
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
-console.log('Task_2_1');
+console.log('-----Task_2_1-----');
 let arr = [1, 2, 'oleg', true, 13, 'book', 21, 'asd', false, 31];
 console.log(arr[0]);
 console.log(arr[9], arr[6], arr[3]);
@@ -10,7 +10,7 @@ console.log(arr);
 
 // Task_2_2
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
-console.log('Task_2_2');
+console.log('-----Task_2_2-----');
 let book1 = {title: 'A Game of Thrones', pageCount: 864, genre: 'fantasy'};
 let book2 = {title: 'The Nightingale', pageCount: 464, genre: 'historical novel'};
 let book3 = {title: 'Wonder', pageCount: 408, genre: 'novel'};
@@ -20,7 +20,7 @@ console.log(book3);
 
 // Task_2_3
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.
-console.log('Task_2_3');
+console.log('-----Task_2_3-----');
 let book4 = {
     title: 'A Game of Thrones',
     pageCount: 864,
@@ -55,7 +55,7 @@ console.log(book6);
 
 // Task_2_4
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
-console.log('Task_2_4');
+console.log('-----Task_2_4-----');
 let arr_users = [];
 arr_users[arr_users.length] = {name: 'viktor', username: 'snig', password: '11aa11'};
 arr_users[arr_users.length] = {name: 'stepan', username: 'kray', password: '22bb22'};
