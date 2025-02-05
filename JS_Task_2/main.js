@@ -47,6 +47,24 @@ console.log(book6);
 
 // Task_2_4
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
+console.log('Task_2_4');
+let arr_users = [];
+arr_users[arr_users.length] = {name: 'viktor', username: 'snig', password: '11aa11'};
+arr_users[arr_users.length] = {name: 'stepan', username: 'kray', password: '22bb22'};
+arr_users[arr_users.length] = {name: 'olga', username: 'audi', password: '33cc33'};
+arr_users[arr_users.length] = {name: 'marina', username: 'ford', password: '44dd44'};
+arr_users[arr_users.length] = {name: 'sofiya', username: 'vw', password: '55ee55'};
+arr_users[arr_users.length] = {name: 'mihail', username: 'shark', password: '66ff66'};
+arr_users[arr_users.length] = {name: 'nikola', username: 'smetana', password: '77gg77'};
+arr_users[arr_users.length] = {name: 'larisa', username: 'dobro', password: '131313'};
+arr_users[arr_users.length] = {name: 'mariya', username: 'hlib', password: '101010'};
+arr_users[arr_users.length] = {name: 'igor', username: '4eh', password: '99zz99'};
+console.log(arr_users);
+
+for (const arrUser of arr_users) {
+    console.log(arrUser.password)
+}
+
 
 
 // Task_2_5
