@@ -1,7 +1,7 @@
 // Масиви та об'єкти
 // Task_2_1
 // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
-console.log('-----Task_2_1-----');
+console.log('----------Task_2_1----------');
 let arr = [1, 2, 'oleg', true, 13, 'book', 21, 'asd', false, 31];
 console.log(arr[0]);
 console.log(arr[9], arr[6], arr[3]);
@@ -10,7 +10,8 @@ console.log(arr);
 
 // Task_2_2
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
-console.log('-----Task_2_2-----');
+console.log('----------Task_2_2----------');
+
 let book1 = {title: 'A Game of Thrones', pageCount: 864, genre: 'fantasy'};
 let book2 = {title: 'The Nightingale', pageCount: 464, genre: 'historical novel'};
 let book3 = {title: 'Wonder', pageCount: 408, genre: 'novel'};
@@ -20,7 +21,8 @@ console.log(book3);
 
 // Task_2_3
 // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.
-console.log('-----Task_2_3-----');
+console.log('----------Task_2_3----------');
+
 let book4 = {
     title: 'A Game of Thrones',
     pageCount: 864,
@@ -55,7 +57,8 @@ console.log(book6);
 
 // Task_2_4
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
-console.log('-----Task_2_4-----');
+console.log('----------Task_2_4----------');
+
 let arr_users = [];
 arr_users[arr_users.length] = {name: 'viktor', username: 'snig', password: '11aa11'};
 arr_users[arr_users.length] = {name: 'stepan', username: 'kray', password: '22bb22'};
@@ -69,6 +72,8 @@ arr_users[arr_users.length] = {name: 'mariya', username: 'hlib', password: '1010
 arr_users[arr_users.length] = {name: 'igor', username: '4eh', password: '99zz99'};
 console.log(arr_users);
 
+console.log(arr_users[0].password, arr_users[9].password, arr_users[1].password);
+
 for (const arrUser of arr_users) {
     console.log(arrUser.password)
 }
@@ -77,10 +82,28 @@ for (const arrUser of arr_users) {
 
 // Task_2_5
 // - описати масив, в якому буде зберігатись інформація про температуру вранці, вдень і ввечері за термін в 7 днів. Як зробити цей масив - вам потрібно подумати. Нормальних варіантів опису - 2. Варіант, коли в вас буде одновимірний масив з 21 значенням вичключаємо одразу
-console.log('Task_2_5');
+console.log('----------Task_2_5----------');
 
+let temp_7_days = [
+    {day_week: 'monday', morning: 1, midday: 2, evening: 3},
+    {day_week: 'tuesday', morning: 1, midday: 2, evening: 3},
+    {day_week: 'wednesday', morning: 1, midday: 2, evening: 3},
+    {day_week: 'thursday', morning: 1, midday: 2, evening: 3},
+    {day_week: 'friday', morning: 1, midday: 2, evening: 3},
+    {day_week: 'saturday', morning: 1, midday: 2, evening: 3},
+    {day_week: 'sunday', morning: 1, midday: 2, evening: 3}
+];
+console.log(temp_7_days);
 
+let temp_7_days_2 = [
+    {part_day: 'morning', monday: 11, tuesday: 12, wednesday: 13, thursday: 14, friday: 15, saturday: 16, sunday: 17},
+    {part_day: 'midday', monday: 11, tuesday: 12, wednesday: 13, thursday: 14, friday: 15, saturday: 16, sunday: 17},
+    {part_day: 'evening', monday: 11, tuesday: 12, wednesday: 13, thursday: 14, friday: 15, saturday: 16, sunday: 17},
+];
+console.log(temp_7_days_2);
 
+console.log(`${temp_7_days[2].morning} температура среда-утро из первого массива`); //пример вывода температуры из первого массива среда-утро
+console.log(temp_7_days_2[1].monday);  //пример вывода температуры из второго массива обед-понедельник
 
 // Логічні розгалуження:
 
