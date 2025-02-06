@@ -4,11 +4,13 @@
 
 console.log('----------Task_2_11----------');
 
+// Снимал/ставил коментарии для теста с разными типами данных
+
 // let x = 'okten';
 // let x = 13;
 // let x;                   //undefined false
-// let x = NaN;            //false
-let x = null;           //false
+let x = NaN;            //false
+// let x = null;           //false
 // let x = false;          //false
 // let x = 0;              //false
 // let x = true;
