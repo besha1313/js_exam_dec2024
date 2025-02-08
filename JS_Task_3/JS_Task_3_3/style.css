@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block{
+    width: 200px;
+    height: 25px;
+    background: cornflowerblue;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+}
+
+.block:nth-child(2n){
+    color: orangered;
+}
