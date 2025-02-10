@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 99vw;
+    margin: 0 auto;
+    padding: 5px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(5,1fr);
+    background: cornflowerblue;
+}
+
+.post-card{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: #f6d9dd;
+    border-radius: 5px;
+}
+
+h3, p{
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
