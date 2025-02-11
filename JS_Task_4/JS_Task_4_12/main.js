@@ -32,12 +32,13 @@ function swap (arr, i_1, i_2){
     }
     return rezult;
 }
+let arr = [-13, 'OKTEN', -15, 67, 34, 888, -17, true, -17.5]
 
-let i_1 = 7;
-let i_2 = 1;
+let i_1 = +prompt(`введіть index_1 від 0 до ${arr.length-1}`);
+let i_2 = +prompt(`введіть index_2 від 0 до ${arr.length-1}`);;
 // let arr = [0, 11, 22, 33, 44, 55]
 
-let arr = [-13, 'OKTEN', -15, 67, 34, 888, -17, true, -17.5]
+
 
 let itog = swap(arr, i_1, i_2)
 console.log(`${itog} це масив після перестановки елементів`)

@@ -13,6 +13,7 @@ function exchange(sumUAH,currencyValues,exchangeCurrency){
                 itogo = sumUAH / curVal.value
             }
         }
+    console.log('введено валюту, якої НЕ існує в базі данних, завітайте пізніше')
     return itogo.toFixed(2);
 }
 
