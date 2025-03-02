@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 95vw;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card{
+    width: 110px;
+    height: 100px;
+    background: lightgreen;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: #8f4123;
+}
+
+.card:nth-child(even){
+    background: lightcoral;
+    color: #1d1d71;
+}
+
+.startMsgBlock{
+    color: cornflowerblue;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.endMsgBlock{
+    color: orangered;
+    font-size: 20px;
+    font-style: italic;
+}
+
+footer{
+    width: 90vw;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    background: silver;
+    border: none;
+    border-radius: 5px;
+    color: blue;
+    font-weight: 600;
+}
+
+button:hover{
+    background: #51f151;
+    transform: scale(1.5);
+    transition: 0.8s;
+    color: chocolate;
+    font-weight: 800;
+}

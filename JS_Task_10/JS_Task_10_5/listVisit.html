@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS_task_10_5a_B13</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+
+<script>
+
+    let datesVisit = JSON.parse(localStorage.getItem('sessionsList'))
+    for (const dateVisit of datesVisit) {
+        let ul = document.createElement('ul');
+        let li = document.createElement('li');
+        li.innerText = dateVisit.toString();
+
+        ul.appendChild(li)
+
+        document.body.append(ul)
+    }
+
+
+
+
+</script>
+
+</body>
+</html>
