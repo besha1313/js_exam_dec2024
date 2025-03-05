@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: 95vw;
+    background: #a7aaa5;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#userCart{
+    width: 95%;
+    margin: 20px auto;
+    background: #a3c58a;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#table{
+    width: 100%;
+    align-items: center;
+    background: #d1eabf;
+    border-radius: 0 0 5px 5px;
+}
+
+.img{
+    height: 50px;
+}
+
+.img:hover{
+    transition: 1s;
+    transform: scale(3);
+}
+
+td{
+    margin-right: 0;
+    align-items: center;
+    border-bottom: 1px solid silver;
+}
+td:nth-last-child(1){
+    width: 120px;
+    text-align: right ;
+}
+
+td:nth-last-child(2){
+    width: 70px;
+    text-align: center ;
+}
+
+td:nth-last-child(3){
+    width: 100px;
+    text-align: right;
+}
+
+td:nth-last-child(4){
+    width: 100px;
+    text-align: center;
+}
+
+td:nth-last-child(5){
+    width: 100px;
+    text-align: end;
+}
+
+td:nth-child(1){
+    width: 60px;
+    text-align: center;
+}
+
+td:nth-child(2){
+    width: 60px;
+    text-align: center;
+    align-content: center;
+}
+
+td:nth-child(3){
+    padding-left: 10px;
+}
+
+th{
+    border-bottom: 1px solid silver;
+}
+
